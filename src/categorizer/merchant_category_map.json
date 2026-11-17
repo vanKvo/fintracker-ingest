@@ -1,0 +1,597 @@
+[
+  {
+    "pattern": "TRADER JOE'?S",
+    "match_type": "regex",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "WHOLEFDS",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "WHOLE FOODS",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "KROGER",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "SAFEWAY",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "PUBLIX",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "ALDI",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "COSTCO WHSE",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "SPROUTS FARMERS",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "HARRIS TEETER",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "GIANT FOOD",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "STOP & SHOP",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "WEGMANS",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "H-E-B",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "MEIJER",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "ALBERTSONS",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "VONS",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "FOOD LION",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "INSTACART",
+    "match_type": "contains",
+    "code": "groceries",
+    "priority": 15,
+    "active": true
+  },
+  {
+    "pattern": "STARBUCKS",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "CHIPOTLE",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "MCDONALD'?S",
+    "match_type": "regex",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "PANERA",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "DUNKIN",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "SUBWAY",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "CHICK-FIL-A",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "DOMINO'?S",
+    "match_type": "regex",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "PIZZA HUT",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "TACO BELL",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "WENDY'?S",
+    "match_type": "regex",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "BURGER KING",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "SHAKE SHACK",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "FIVE GUYS",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "OLIVE GARDEN",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "SQ \\*",
+    "match_type": "regex",
+    "code": "food-and-drink",
+    "priority": 25,
+    "active": true
+  },
+  {
+    "pattern": "TST\\*",
+    "match_type": "regex",
+    "code": "food-and-drink",
+    "priority": 25,
+    "active": true
+  },
+  {
+    "pattern": "UBER \\*EATS",
+    "match_type": "regex",
+    "code": "food-and-drink",
+    "priority": 5,
+    "active": true
+  },
+  {
+    "pattern": "UBEREATS",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 5,
+    "active": true
+  },
+  {
+    "pattern": "DOORDASH",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "GRUBHUB",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "POSTMATES",
+    "match_type": "contains",
+    "code": "food-and-drink",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "UBER \\*TRIP",
+    "match_type": "regex",
+    "code": "transportation",
+    "priority": 5,
+    "active": true
+  },
+  {
+    "pattern": "LYFT",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "SHELL OIL",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "CHEVRON",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "EXXON",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "MOBIL",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "BP#",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "SPEEDWAY",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "CIRCLE K",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 15,
+    "active": true
+  },
+  {
+    "pattern": "AMTRAK",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "EZPASS",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "E-ZPASS",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "MTA\\*",
+    "match_type": "regex",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "PARKMOBILE",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "SPOTHERO",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "DELTA AIR",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "SOUTHWES ",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "UNITED AIR",
+    "match_type": "contains",
+    "code": "transportation",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "NETFLIX\\.COM",
+    "match_type": "regex",
+    "code": "subscriptions",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "SPOTIFY",
+    "match_type": "contains",
+    "code": "subscriptions",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "HULU",
+    "match_type": "contains",
+    "code": "subscriptions",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "DISNEY PLUS",
+    "match_type": "contains",
+    "code": "subscriptions",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "DISNEYPLUS",
+    "match_type": "contains",
+    "code": "subscriptions",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "APPLE\\.COM/BILL",
+    "match_type": "regex",
+    "code": "subscriptions",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "GOOGLE \\*",
+    "match_type": "regex",
+    "code": "subscriptions",
+    "priority": 20,
+    "active": true
+  },
+  {
+    "pattern": "AMAZON PRIME",
+    "match_type": "contains",
+    "code": "subscriptions",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "COMCAST",
+    "match_type": "contains",
+    "code": "utilities",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "XFINITY",
+    "match_type": "contains",
+    "code": "utilities",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "AT&T\\*",
+    "match_type": "regex",
+    "code": "utilities",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "VERIZON WRLS",
+    "match_type": "contains",
+    "code": "utilities",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "T-MOBILE",
+    "match_type": "contains",
+    "code": "utilities",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "SPECTRUM",
+    "match_type": "contains",
+    "code": "utilities",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "AMZN MKTP",
+    "match_type": "contains",
+    "code": "shopping",
+    "priority": 20,
+    "active": true
+  },
+  {
+    "pattern": "AMAZON\\.COM\\*",
+    "match_type": "regex",
+    "code": "shopping",
+    "priority": 20,
+    "active": true
+  },
+  {
+    "pattern": "TARGET\\.COM",
+    "match_type": "regex",
+    "code": "shopping",
+    "priority": 15,
+    "active": true
+  },
+  {
+    "pattern": "BEST BUY",
+    "match_type": "contains",
+    "code": "shopping",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "HOME DEPOT",
+    "match_type": "contains",
+    "code": "shopping",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "LOWE'?S",
+    "match_type": "regex",
+    "code": "shopping",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "IKEA",
+    "match_type": "contains",
+    "code": "shopping",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "ETSY",
+    "match_type": "contains",
+    "code": "shopping",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "CVS/PHARMACY",
+    "match_type": "contains",
+    "code": "healthcare",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "WALGREENS",
+    "match_type": "contains",
+    "code": "healthcare",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "RITE AID",
+    "match_type": "contains",
+    "code": "healthcare",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "pattern": "GNC ",
+    "match_type": "contains",
+    "code": "healthcare",
+    "priority": 10,
+    "active": true
+  }
+]

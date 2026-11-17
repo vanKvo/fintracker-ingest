@@ -1,0 +1,227 @@
+[
+  {
+    "bankId": "chase",
+    "accountClass": "DEPOSIT",
+    "verified": false,
+    "headers": [
+      "Details",
+      "Posting Date",
+      "Description",
+      "Amount",
+      "Type",
+      "Balance",
+      "Check or Slip #"
+    ],
+    "profile": {
+      "columns": {
+        "date": "Posting Date",
+        "description": "Description",
+        "amount": "Amount",
+        "type": "Type"
+      },
+      "amountMode": "SIGNED",
+      "signConvention": "EXPENSE_NEGATIVE",
+      "dateFormat": "MDY"
+    }
+  },
+  {
+    "bankId": "chase",
+    "accountClass": "CREDIT",
+    "verified": true,
+    "headers": [
+      "Transaction Date",
+      "Post Date",
+      "Description",
+      "Category",
+      "Type",
+      "Amount",
+      "Memo"
+    ],
+    "profile": {
+      "columns": {
+        "date": "Transaction Date",
+        "description": "Description",
+        "amount": "Amount",
+        "type": "Type",
+        "category": "Category"
+      },
+      "amountMode": "SIGNED",
+      "signConvention": "EXPENSE_NEGATIVE",
+      "dateFormat": "MDY"
+    }
+  },
+  {
+    "bankId": "capital_one",
+    "accountClass": "DEPOSIT",
+    "verified": true,
+    "headers": [
+      "Account Number",
+      "Transaction Description",
+      "Transaction Date",
+      "Transaction Type",
+      "Transaction Amount",
+      "Balance"
+    ],
+    "profile": {
+      "columns": {
+        "date": "Transaction Date",
+        "description": "Transaction Description",
+        "amount": "Transaction Amount",
+        "direction": "Transaction Type"
+      },
+      "amountMode": "INDICATOR",
+      "dateFormat": "MDY"
+    }
+  },
+  {
+    "bankId": "bank_of_america",
+    "accountClass": "DEPOSIT",
+    "verified": false,
+    "headers": [
+      "Date",
+      "Description",
+      "Amount",
+      "Running Bal."
+    ],
+    "profile": {
+      "columns": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount"
+      },
+      "amountMode": "SIGNED",
+      "signConvention": "EXPENSE_NEGATIVE",
+      "dateFormat": "MDY"
+    }
+  },
+  {
+    "bankId": "bank_of_america",
+    "accountClass": "CREDIT",
+    "verified": false,
+    "headers": [
+      "Posted Date",
+      "Reference Number",
+      "Payee",
+      "Address",
+      "Amount"
+    ],
+    "profile": {
+      "columns": {
+        "date": "Posted Date",
+        "description": "Payee",
+        "amount": "Amount"
+      },
+      "amountMode": "SIGNED",
+      "signConvention": "EXPENSE_NEGATIVE",
+      "dateFormat": "MDY"
+    }
+  },
+  {
+    "bankId": "wells_fargo",
+    "accountClass": "DEPOSIT",
+    "verified": false,
+    "headers": [
+      "Date",
+      "Amount",
+      "Check Number",
+      "Description"
+    ],
+    "profile": {
+      "columns": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount"
+      },
+      "amountMode": "SIGNED",
+      "signConvention": "EXPENSE_NEGATIVE",
+      "dateFormat": "MDY"
+    }
+  },
+  {
+    "bankId": "us_bank",
+    "accountClass": "DEPOSIT",
+    "verified": false,
+    "headers": [
+      "Date",
+      "Transaction",
+      "Name",
+      "Memo",
+      "Amount"
+    ],
+    "profile": {
+      "columns": {
+        "date": "Date",
+        "description": "Name",
+        "amount": "Amount"
+      },
+      "amountMode": "SIGNED",
+      "signConvention": "EXPENSE_NEGATIVE",
+      "dateFormat": "MDY"
+    }
+  },
+  {
+    "bankId": "pnc_bank",
+    "accountClass": "DEPOSIT",
+    "verified": false,
+    "headers": [
+      "Date",
+      "Description",
+      "Amount",
+      "Balance"
+    ],
+    "profile": {
+      "columns": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount"
+      },
+      "amountMode": "SIGNED",
+      "signConvention": "EXPENSE_NEGATIVE",
+      "dateFormat": "MDY"
+    }
+  },
+  {
+    "bankId": "td_bank",
+    "accountClass": "DEPOSIT",
+    "verified": false,
+    "headers": [
+      "Date",
+      "Description",
+      "Amount",
+      "Balance"
+    ],
+    "profile": {
+      "columns": {
+        "date": "Date",
+        "description": "Description",
+        "amount": "Amount"
+      },
+      "amountMode": "SIGNED",
+      "signConvention": "EXPENSE_NEGATIVE",
+      "dateFormat": "MDY"
+    }
+  },
+  {
+    "bankId": "discover",
+    "accountClass": "CREDIT",
+    "verified": false,
+    "headers": [
+      "Trans. Date",
+      "Post Date",
+      "Description",
+      "Amount",
+      "Category"
+    ],
+    "profile": {
+      "columns": {
+        "date": "Trans. Date",
+        "description": "Description",
+        "amount": "Amount",
+        "category": "Category"
+      },
+      "amountMode": "SIGNED",
+      "signConvention": "EXPENSE_POSITIVE",
+      "dateFormat": "MDY"
+    }
+  }
+]

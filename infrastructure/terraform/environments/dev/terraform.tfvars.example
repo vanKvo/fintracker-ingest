@@ -1,0 +1,9 @@
+profile                           = "dev"
+statements_bucket_name            = "fintracker-statements-dev-<account-id>"
+identity_authorizer_function_arn  = "arn:aws:lambda:us-east-1:<account-id>:function:FinTracker-UserProfile-dev-authorizer"
+ledger_internal_api_url           = "https://<id>.execute-api.us-east-1.amazonaws.com"
+ledger_internal_api_execution_arn = "arn:aws:execute-api:us-east-1:<account-id>:<id>"
+cors_allowed_origins              = ["http://localhost:4200"]
+malware_scan                      = false # IN-IMP-03: must be true before anyone but the owner uploads
+expiry_sweep_enabled              = true  # IN-IMP-08: false pauses the cleanup job
+alarm_email                       = ""
