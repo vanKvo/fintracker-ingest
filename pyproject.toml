@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "ingest-service"
+version = "0.1.0"
+description = "FinTracker Ingest Service — CSV and Excel bank exports to pending Ledger transactions, with a preview the user confirms"
+authors = ["Van Vo"]
+readme = "README.md"
+packages = [{ include = "src" }, { include = "scripts" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+# IN-RDR-03/04: permissive licenses only (MIT, PSF). defusedxml makes openpyxl refuse XML entities.
+openpyxl = "^3.1.5"
+defusedxml = "^0.7.1"
+fastapi = "^0.115.12"
+mangum = "^0.19.0"
+boto3 = "^1.37.28"
+pydantic = "^2.11.3"
+aws-lambda-powertools = "^3.28.0"
+httpx = "^0.28.1"
+# LB-LOGM-10: shared log masking. Path install until the package registry exists (LB-PKG-04/05).
+fintracker-log-masking = { path = "../../libs/fintracker-log-masking", develop = true }
+# LB-IHTTP-09: shared internal HTTP (signing, forwarded user). Path install until the package registry exists.
+fintracker-internal-http = { path = "../../libs/fintracker-internal-http", develop = true }
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-asyncio = "^0.25.3"
+mypy = "^1.15.0"
+moto = { version = "^5.1.0", extras = ["dynamodb", "s3", "sns"] }
+boto3-stubs = { version = "^1.37.28", extras = ["dynamodb", "s3", "sns"] }
+types-openpyxl = "^3.1.5"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.fintracker-log-check]
+paths = ["src"]
+forbidden = ["description", "merchant", "headers", "rows", "file_name"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
